@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    max-width: 260px;
+    width: 100%;
+    height: 200px;
+    border: 1px solid green;
+    box-shadow: 0 5px 7px darkgreen;
+    margin: 10px;
+    overflow: auto;
+}
+
+.key-container{
+    padding: 3px 7px;
+}
+.load-post{
+    width: 120px;
+    align-self: flex-end;
+    text-align: center;
+    background-color: green;
+    padding: 7px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.post-content{
+    padding: 7px;
+    margin-top: 10px;
+}
